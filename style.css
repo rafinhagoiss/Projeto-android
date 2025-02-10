@@ -1,0 +1,149 @@
+@charset "utf-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+
+
+h1#titulo{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.774);
+} 
+h1{
+    font-family: idroid;
+    font-size: 30px;
+    color:rgb(9, 196, 85) ;
+    text-indent: 30px;
+}
+h2{
+    font-family: idroid;
+    color: rgb(9, 196, 85); 
+    background-image: linear-gradient(to right, rgba(50, 204, 112, 0.315), rgba(26, 167, 82, 0));
+    text-indent: 30px;
+}
+p.texto{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.774); 
+}
+p{
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-indent: 30px;
+}
+header{
+    background-image: linear-gradient(to top , rgb(0, 103, 42) , rgb(9, 196, 85));
+    padding: 10px;
+    width: auto;
+    margin: -20px;
+    position: relative;
+    
+}
+div#lista{
+    position: absolute;
+    top: 60%;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+}
+li.menu{
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.705);
+    animation: changeBackgroundColor 7s infinite;
+}
+ol{
+   list-style:  " 👌";
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+#lado{
+    display: block;
+}
+.menu:hover{
+    color: rgba(61, 217, 228, 0.753);
+    transition: 1s;
+}
+a{
+    text-decoration: none;
+}
+.link{
+    color: green;
+}
+.link::after{
+    content: "📎";
+}
+body{
+    background-color: rgb( 56, 209, 118);
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+
+}
+
+#estilo{
+    background-color: white;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 700px ;
+    width: auto;
+    box-shadow: -1px 0px 16px 13px rgba(0, 0, 0, 0.233);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+img{
+    max-width: 95%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bug{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4{
+    background-color: rgba(42, 223, 42, 0.897);
+    height: 28px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    line-height: 1,6;
+    text-indent: 30px;
+}
+section{
+    background-color: rgba(17, 204, 17, 0.5);
+    border-radius: 10px;
+    max-width: 95%;
+    width: auto;
+    position: relative;
+    left: 15px;
+}
+
+footer{
+    background-color: green;
+    text-align: center;
+    max-width: 100%;
+    width: auto;
+    padding: 10px 0;
+
+}
+.video{
+    background-color: #008000;
+    position: relative;
+    padding-bottom: 59%;
+   
+}
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
